@@ -6,19 +6,53 @@
 
 }
 
+.heading-text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 
 
 
 .sign-up-button {
   border: solid 1px black;
-  display: inline;
+  display: flex;
   padding: 6px 40px;
   border-radius: 40px;
-  
+  justify-content: center;
 }
 
 a {
   text-decoration: none;
   color: black;
 }
+
+.second-heading-text{
+  flex-grow: .3;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+}
+
+.rocket{
+  height: 400px;
+  width: 400px;
+  
+}
+
+.profile-icon{
+  height: 12px;
+  
+}
+
+input{
+  width: 340px;
+  height: 40px;
+  border-radius: 30px;
+  position: absolute;
+}
+
+
+
 
