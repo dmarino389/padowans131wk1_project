@@ -12,16 +12,21 @@
 }
 
 .sign-up-button {
-  border: solid 1px black;
+  border: solid 1px rgb(255, 255, 255);
   display: flex;
   padding: 6px 40px;
   border-radius: 40px;
   justify-content: center;
+  width: max-content;
+  margin: auto;
+ 
 }
 
 a {
   text-decoration: none;
   color: black;
+  color: white;
+  border-color: white;
 }
 
 .second-heading-text {
@@ -57,4 +62,24 @@ input {
 .input-container-container {
   display: flex;
   flex-direction: column;
+}
+
+.sign-in{
+  margin-right: 120px;
+}
+
+.oval{
+  height: 1000px;
+  width: 1000px;
+  display: flex;
+  position: absolute;
+  background-color: blue;
+  border-radius: 0px 0px 1000px 00px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.h2-text{
+  color: white;
 }
