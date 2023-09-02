@@ -3,17 +3,13 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 50px;
-
 }
 
-.heading-text{
+.heading-text {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-
-
-
 
 .sign-up-button {
   border: solid 1px black;
@@ -28,31 +24,37 @@ a {
   color: black;
 }
 
-.second-heading-text{
-  flex-grow: .3;
+.second-heading-text {
+  
   font-size: x-large;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+  margin-bottom: 200px;
+ 
 }
 
-.rocket{
+.rocket {
   height: 400px;
   width: 400px;
-  
 }
 
-.profile-icon{
+.profile-icon {
   height: 12px;
-  
 }
 
-input{
-  width: 340px;
-  height: 40px;
+input {
+  width: 440px;
+  height: 50px;
   border-radius: 30px;
-  position: absolute;
 }
 
+.mail {
+}
 
-
-
+.input-container-container {
+  display: flex;
+  flex-direction: column;
+}
