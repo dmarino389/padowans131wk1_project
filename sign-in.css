@@ -56,7 +56,7 @@ a {
   width: 400px;
   display: flex;
   margin-bottom: 200px;
-  margin-left: 235px;
+  margin-left: 200px;
   
 }
 
@@ -164,8 +164,38 @@ h5{
   text-align: center;
 }
 
-.svgs{
+
+.sg{
+  
+  padding: 10px;
+  width: px;
   display: flex;
-  margin-right: 500px;
+  justify-content: space-evenly;
+  margin: auto;
+
 }
 
+.fa-brands{
+ 
+  border: none;
+}
+
+.one, .two, .three, .four {
+  display: inline-block;
+  margin-right: 95px; /* Add some spacing between the divs */
+  text-align: center;
+  width: 0px;
+  margin-left: 10px;
+  
+}
+
+.fa-linkedin-in{
+  width: 0px;
+}
+.fa-twitter{
+  width: 0px;
+}
+
+.fa-google{
+  width: 0px;
+}
