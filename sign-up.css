@@ -1,0 +1,94 @@
+ #picture{
+    background-image: url('lady@computer.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    float:right; 
+    width:500px; 
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-bottom: auto;
+    margin-left:auto;
+    
+}
+
+.container {
+   width: 50%;
+   height: 100vh;
+   margin-right: auto;
+   margin-left: 90px;  
+   margin-top: 40px;
+   position: absolute; 
+   
+}
+
+h1{
+    margin:50px 120px 
+    
+}
+
+.btn{
+    border-radius:15px;
+    background-color: blue;
+    margin-left:  125px;
+    width: 160px;
+    height: auto;
+    color: white
+}
+
+p{
+width: 50%;
+   height: auto;
+   margin-right: auto;
+   margin-left: 100px;   
+  
+}
+
+dt{
+   width: 50%;
+   height: auto;
+   margin-right: auto;
+   margin-left: 40px;  
+   display:inline
+}
+
+
+
+.input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+ 
+.icon {
+    padding: 10px;
+    min-width: 40px;
+    
+}
+ 
+.input-field {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#righttHalf {
+    background: url(lady@computer.png);
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+ }
+ 
+ #leftHalf {
+ 
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+ }
