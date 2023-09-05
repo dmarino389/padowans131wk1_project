@@ -1,0 +1,210 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.heading-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sign-up-button {
+  border: solid 2px rgb(255, 255, 255);
+  display: flex;
+  padding: 6px 40px;
+  border-radius: 40px;
+  justify-content: center;
+  width: max-content;
+  margin: auto;
+  margin-top: 0px;
+ 
+}
+
+.sign-up-button:hover{
+  opacity: 60%;
+
+}
+
+.sign-up-button:active{
+  opacity: 40%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  color: white;
+  border-color: white;
+}
+
+.second-heading-text {
+  
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+  margin-bottom: 200px;
+ 
+}
+
+.rocket {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  margin-bottom: 200px;
+  margin-left: 200px;
+  
+}
+
+.profile-icon {
+  height: 12px;
+}
+
+
+.mail {
+}
+
+.input-container-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in{
+  margin-right: 120px;
+  font-size: 60px;
+}
+
+.oval{
+  height: 1000px;
+  width: 1000px;
+  display: flex;
+  position: absolute;
+  background-color: blue;
+  border-radius: 0px 0px 900px 0px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.h2-text{
+  color: white;
+}
+
+i{
+  border: solid 1px black;
+  height: 50px;
+  border-radius: 30px;
+  width: 500px;
+  display: flex;
+  position: absolute;
+  padding:10px;
+  margin: auto;
+  
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  border: none;
+  
+}
+
+.input-fields{
+  padding: 50px;
+}
+
+.fa-regular{
+  z-index: 0;
+}
+
+.user{
+  margin-top: 20px;
+}
+
+.lock{
+  margin-top: 60px;
+}
+
+.email{
+  margin-top: 60px;
+}
+
+button{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 60px;
+  border-radius: 30px;
+  color: white;
+  background-color: blue;
+  padding: 15px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+button:hover{
+  opacity: 60%;
+}
+
+button:active{
+  opacity: 40%;
+}
+
+h5{
+  text-align: center;
+}
+
+
+.sg{
+  
+  padding: 10px;
+  width: px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+
+}
+
+.fa-brands{
+ 
+  border: none;
+}
+
+.one, .two, .three, .four {
+  display: inline-block;
+  margin-right: 95px; /* Add some spacing between the divs */
+  text-align: center;
+  width: 0px;
+  margin-left: 10px;
+  
+}
+
+.fa-linkedin-in{
+  width: 0px;
+}
+.fa-twitter{
+  width: 0px;
+}
+
+.fa-google{
+  width: 0px;
+}
+
+
+
+
+
+
+
+
+
