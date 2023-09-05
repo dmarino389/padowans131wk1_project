@@ -65,8 +65,7 @@ a {
 }
 
 
-.mail {
-}
+
 
 .input-container-container {
   display: flex;
@@ -94,25 +93,17 @@ a {
   color: white;
 }
 
-i{
-  border: solid 1px black;
-  height: 50px;
-  border-radius: 30px;
-  width: 500px;
-  display: flex;
-  position: absolute;
-  padding:10px;
-  margin: auto;
-  
-}
+
 
 input {
-  width: 500px;
-  height: 50px;
-  border-radius: 30px;
-  padding: 10px;
-  display: flex;
+  width: 100%;
+  outline: none;
   border: none;
+  
+  
+  padding: 10px;
+  
+  
   
 }
 
@@ -120,21 +111,9 @@ input {
   padding: 50px;
 }
 
-.fa-regular{
-  z-index: 0;
-}
 
-.user{
-  margin-top: 20px;
-}
 
-.lock{
-  margin-top: 60px;
-}
 
-.email{
-  margin-top: 60px;
-}
 
 button{
   width: 200px;
@@ -199,6 +178,22 @@ h5{
 .fa-google{
   width: 0px;
 }
+
+.input-icon{
+  padding: 12px;
+}
+
+.s{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 8px;
+  margin-bottom: 40px;
+}
+
+
+
 
 
 
